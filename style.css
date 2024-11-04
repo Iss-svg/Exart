@@ -1,22 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');/*permet d'importer une typographie*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Odibee+Sans&display=swap');
+
+
+
 .Scentre {
-    text-align: center;
-    font-size: 100px;
+    text-align: center; /*permet de centrer le texte*/
+    font-size: 80px;
 
 }
 .opm {
 
-    background-color: rgb(3, 10, 91); 
+    background-color: rgb(3, 10, 91); /*color le fond de l'élément*/
     font-size: 30px;
     color: aliceblue;
     border-radius: 5px 20px;
     text-decoration: none; /*cert a decorer le texte*/
     padding: 10px 60px;/* Marge interieur du bloc*/
     border: solid;/* gestion de la bordure: epeseur */
-    border-color: rgb(212, 131, 10);
+    border-color: rgb(212, 131, 10);/*border prendra la couleur selectionner*/
     border-width: 4px;
+    text-decoration: none;
     
    
 }
+.opm:hover{
+    color: rgb(7, 6, 0);
+    background-color: white;
+    border-color: rgb(19, 11, 2);
+    font-weight: 900;
+}
 .txt {
     text-align: center;
+}
+.inLine{
+    display: inline;
+}
+
+.imgWh {
+    width: 500px;
+    height: 250px;
+}
+
+.bgCrim {
+    background-color: rgb(245, 245, 245);
+    height: 100vh;/* vh permet de prendre toute la hauteur de la page*/
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.bgviolet {
+    background-color: blueviolet;
+    display: inline-block;/*permet d'aligner les blocks*/
+    height:100px;
+    width: 100px;
+}
+
+*{
+    margin: 0;
+}
+.bdord {
+    border: solid;
+    border-radius: 20px;
+}
+.dboi{
+ border-top-left-radius: 12px;
+ border-bottom-right-radius: 12px;
+ border-top-right-radius: 30px;
+ border-bottom-left-radius: 30;
+ 
+}
+
+.sab{
+   font-family:"odibee sans",sans-serif; /*permet de definir la font du paragraphe*/
+   font-weight: 900;
+}
+
+.bouton{
+    display: block;
+   /* background-color: crimson;*/
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.interBold {
+    font-family: "Inter", sans-serif;
+    font-weight:700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.interRegular {
+    font-family: "Inter", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+
+.bordersolid{
+    border: 2px solid black;
+}
+
+.borderDash{
+    border: 4px dashed black;
+}
+
+.backbold {
+    background-color: #61FF7B;
+}
+
+.backregular {
+    background-color:#1398A0 ;
+    color: white;
+}
+
+.borderlis{
+    border-radius: 32px;
+}
+
+.borderCurv{
+
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.bardlos {
+    border-radius: 12px;
+}
+
+.interBold:hover{
+    color: grey;
+    font-weight: 900;
+}
+
+.interRegular:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.lacarte{
+    display: inline-block;/*permet d'aligner les blocks*/
+   width: 310px;
+   height: 200px;
+   box-shadow: 12px 5px 5px black;
+   
+
+}
+.img {
+    background-color: rgb(245, 245, 245);
+    height: 170px;/* vh permet de prendre toute la hauteur de la page*/
+    width: 100%;
+    margin: auto;
+    box-shadow: inset;
+
+}
+
+.cless{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
 }
