@@ -1,0 +1,58 @@
+/*Designer la card*/
+
+.card{
+    height: 350px;
+    width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+   
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
+}
+
+.bouton{
+    display: block;
+   /* background-color: crimson;*/
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+.interRegular {
+    font-family: "Inter", sans-serif;
+    font-weight:350px;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+.backregular {
+    background-color:#1398A0 ;
+    color: white;
+}
+.bardlos {
+    border-radius: 12px;
+}
+.flex {
+    display: flex;  
+}
+
+.spaceaRound {
+    justify-content: space-around;
+}
+
+.sectvh{
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+*{
+    margin: 0;
+}
