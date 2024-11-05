@@ -145,26 +145,29 @@
 
 .lacarte{
     display: inline-block;/*permet d'aligner les blocks*/
-   width: 310px;
-   height: 200px;
-   
+    width: 308px;
+    border-radius: 10px;
+    margin: auto;
+}
 
+.lacarte:hover{
+    border: solid;
+    border-color: gray;
 }
 .img {
-    background-color: rgb(245, 245, 245);
+
     height: 170px;/* vh permet de prendre toute la hauteur de la page*/
-    width: 100%;
-    margin: auto;
-    box-shadow: inset;
+    width: fit-content;
+    padding: 5px;
 
 }
 
 .cless{
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     text-align: left;
 }
 .shdw{
-    box-shadow: 12px 5px 5px black ;
-    
+    box-shadow: 5px 5px 5px rgba(23, 22, 22, 0.692) ;
+
 }
