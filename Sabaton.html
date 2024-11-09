@@ -8,140 +8,169 @@
     <!--permet d'adapter la page selon le support-->
     <title>Sabaton</title> <!--l'enoncer de l'onglet-->
     <link rel="stylesheet" href="style.css"><!--permet de crée un lien entre plusieur balise-->
+    <link rel="icon" href="asset/ss2ag4l9.bmp">
 </head>
 
 <body>
-    <header> <!--permet de mettre ce qui est ci dessous dans un cadre-->
-        <nav> <!--navigation-->
-            <ul>
-                <li><a href="index.html">accueil</a></li>
-                <li><a href="#Sabaton">Sabaton</a></li> <!--fait defiler la page jusqu'a la div ayant l'id-->
-                <li><a href="#BIO">BIO</a></li>
-                <li><a href="#TopTitres">Top Titres</a></li>
-                <li><a href="#Dernièressorties">Dernières sorties</a></li>
-                <li><a href="#Alb">Albums</a></li>
-                <li><a href="#ArtistesSimilaire">Artistes Similaire</a></li>
+    <header class="flex spacebetwen alignCenter"> <!--permet de mettre ce qui est ci dessous dans un cadre-->
+        <img src="asset/Green Arrow.jpg" alt="image du logo du groupe sabaton " class="imgheader">
+        <nav class="navHeader"> <!--navigation-->
+            <ul class="flex spacebetwen bold sab">
+                <li>
+                    <a href="#Sabaton">Sabaton</a><!--fait defiler la page jusqu'a la div ayant l'id-->
+                </li>
+                <li>
+                    <a href="#BIO">BIO</a>
+                </li>
+                <li>
+                    <a href="#TopTitres">Top Titres</a>
+                </li>
+                <li>
+                    <a href="#Dernièressorties">Dernières sorties</a>
+                </li>
+                <li>
+                    <a href="#Alb">Albums</a>
+                </li>
+                <li>
+                    <a href="#ArtistesSimilaire">Artistes Similaire</a>
+                </li>
             </ul>
         </nav>
+        <a href="index.html" class="bold sab">Accueil</a>
     </header>
     <main><!--peut chager selon l'action du visiteur -->
-        <section><!--permet de ranger certain element dans un case-->
-
-            <h1 class="Scentre sab" id="Sabaton">Sabaton</h1><!-- id crée un lien vers -->
-            <p>Les membres actuels de Sabaton incluent Joakim Brodén (chant), Pär Sundström (basse), Chris Rörland
-                (guitare),<br> <!--Permet de revenir a la ligne--> Hannes Van Dahl (batterie) et Thobbe Englund
-                (guitare).
-            </p>
-            <a href="https://fr.wikipedia.org/wiki/Sabaton"><img src="asset/sabaton-interview-band-2019.jpg" alt=""></a>
+        <section class="bgsabaton hero flex alignCenter"><!--permet de ranger certain element dans un case-->
+            <div class=" container flex">
+                <h1 class="Scentre sab" id="Sabaton">Sabaton</h1><!-- id crée un lien vers -->
+                <p>Les membres actuels de Sabaton incluent Joakim Brodén (chant), Pär Sundström (basse), Chris Rörland
+                    (guitare),<br> <!--Permet de revenir a la ligne--> Hannes Van Dahl (batterie) et Thobbe Englund
+                    (guitare).
+                </p>
+            </div>
+            <a href="https://fr.wikipedia.org/wiki/Sabaton"><img src="asset/sabaton-interview-band-2019.jpg" alt=""
+                    class="imgMl"></a>
         </section>
         <section>
-            <h2 id="BIO">BIO</h2>
-            <P>Sabaton est un groupe suédois de power metal de Falun. La grande majorité de leurs albums sont écrits sur
-                les
-                événements historiques, principalement les guerres et les batailles importantes.Sabaton est formé en
-                1999 à
-                Falun, en Dalécarlie.Après avoir enregistré leurs premiers morceaux dans le studio de Peter Tägtgren
-                (The
-                Abyss), Sabaton est contacté par plusieurs labels. Le groupe décide de signer avec un label italien qui
-                publie
-                au niveau international le CD promotionnel Fist for Fight, celui-ci incluant une pochette réalisée par
-                l'artiste
-                bien connu Ken Kelly.<br> Un an après la sortie des premiers enregistrements, Sabaton souhaite revenir
-                avec
-                l'album Metalizer, travaillant encore avec Peter Tägtgren. L'album est enregistré en 2002 et aurait dû
-                être
-                produit par Underground Symphony comme le premier album du groupe.Cependant, après deux ans d'attente
-                (durant
-                lesquels Sabaton fait la première partie de nombreux groupes en Suède), l'album est abandonné. Sabaton
-                décide
-                d'enregistrer un autre album. Mais cette fois, ils souhaitent le réaliser par eux-mêmes, sans le soutien
-                financier d'un label.<br> Le groupe publie son premier album officiel1, Primo Victoria, et se lance
-                lui-même
-                dans des négociations avec plusieurs labels internationaux. Il signe enfin avec Black Lodge, la division
-                metal
-                du label Sound Pollution. Au cours de l'année 2005, Sabaton recrute Daniel Myhr1 pour décharger Joakim
-                Brodén
-                des claviers, dont il s'occupait en plus de son poste de chanteur.
-                Leur deuxième album, Attero Dominatus2, est publié le 8 juillet 2006 et continue sur la lancée guerrière
-                de
-                Primo Victoria avec des titres comme Back in Control (qui se réfère à l'attaque britannique lors de la
-                guerre
-                des Falkland), Attero Dominatus (au sujet de la bataille de Berlin qui amena la fin de la Seconde Guerre
-                mondiale en Europe) et Angels Calling (au sujet de la guerre des tranchée au cours de la 1re Guerre
-                mondiale).
-                Leur troisième album (en principe deuxième album), Metalizer, sort finalement le 16 mars 20073.
-                Metalizer
-                est
-                sorti sous la forme d'un double CD avec Fist to Fight et le titre Birds of War jamais publié
-                auparavant.<br>
-                Comme une suite à Metalizer, Sabaton sort le 30 mai 20084 The Art of War. Cet album est inspiré par le
-                célèbre
-                livre, L'Art de la guerre, attribué à Sun Tzu. L'album contient les singles Cliffs of Gallipoli et Ghost
-                Division. L'album reçoit un accueil très positif de la presse spécialisée (notamment par the Metal
-                Observer,
-                qui
-                lui attribue une note de 9/10)5. En septembre 2008, Sabaton est annoncé au festival ProgPowerUSA X à
-                Atlanta
-                pour 2009. De même, il est le premier groupe confirmé pour le festival Bloodstock '09 à Derby, en
-                Angleterre
-            </P>
+            <div>
+                <h2 id="BIO">BIO</h2>
+                <P>Sabaton est un groupe suédois de power metal de Falun. La grande majorité de leurs albums sont écrits
+                    sur
+                    les
+                    événements historiques, principalement les guerres et les batailles importantes.Sabaton est formé en
+                    1999 à
+                    Falun, en Dalécarlie.Après avoir enregistré leurs premiers morceaux dans le studio de Peter Tägtgren
+                    (The
+                    Abyss), Sabaton est contacté par plusieurs labels. Le groupe décide de signer avec un label italien
+                    qui
+                    publie
+                    au niveau international le CD promotionnel Fist for Fight, celui-ci incluant une pochette réalisée
+                    par
+                    l'artiste
+                    bien connu Ken Kelly.<br> Un an après la sortie des premiers enregistrements, Sabaton souhaite
+                    revenir
+                    avec
+                    l'album Metalizer, travaillant encore avec Peter Tägtgren. L'album est enregistré en 2002 et aurait
+                    dû
+                    être
+                    produit par Underground Symphony comme le premier album du groupe.Cependant, après deux ans
+                    d'attente
+                    (durant
+                    lesquels Sabaton fait la première partie de nombreux groupes en Suède), l'album est abandonné.
+                    Sabaton
+                    décide
+                    d'enregistrer un autre album. Mais cette fois, ils souhaitent le réaliser par eux-mêmes, sans le
+                    soutien
+                    financier d'un label.<br> Le groupe publie son premier album officiel1, Primo Victoria, et se lance
+                    lui-même
+                    dans des négociations avec plusieurs labels internationaux. Il signe enfin avec Black Lodge, la
+                    division
+                    metal
+                    du label Sound Pollution. Au cours de l'année 2005, Sabaton recrute Daniel Myhr1 pour décharger
+                    Joakim
+                    Brodén
+                    des claviers, dont il s'occupait en plus de son poste de chanteur.
+                    Leur deuxième album, Attero Dominatus2, est publié le 8 juillet 2006 et continue sur la lancée
+                    guerrière
+                    de
+                    Primo Victoria avec des titres comme Back in Control (qui se réfère à l'attaque britannique lors de
+                    la
+                    guerre
+                    des Falkland), Attero Dominatus (au sujet de la bataille de Berlin qui amena la fin de la Seconde
+                    Guerre
+                    mondiale en Europe) et Angels Calling (au sujet de la guerre des tranchée au cours de la 1re Guerre
+                    mondiale).
+                    Leur troisième album (en principe deuxième album), Metalizer, sort finalement le 16 mars 20073.
+                    Metalizer
+                    est
+                    sorti sous la forme d'un double CD avec Fist to Fight et le titre Birds of War jamais publié
+                    auparavant.<br>
+                    Comme une suite à Metalizer, Sabaton sort le 30 mai 20084 The Art of War. Cet album est inspiré par
+                    le
+                    célèbre
+                    livre, L'Art de la guerre, attribué à Sun Tzu. L'album contient les singles Cliffs of Gallipoli et
+                    Ghost
+                    Division. L'album reçoit un accueil très positif de la presse spécialisée (notamment par the Metal
+                    Observer,
+                    qui
+                    lui attribue une note de 9/10)5. En septembre 2008, Sabaton est annoncé au festival ProgPowerUSA X à
+                    Atlanta
+                    pour 2009. De même, il est le premier groupe confirmé pour le festival Bloodstock '09 à Derby, en
+                    Angleterre
+                </P>
+            </div>
         </section>
         <section> <!--permet de ranger certain element dans un case-->
             <h3 id="TopTitres">Top Titres</h3>
             <div><!--l'élément de division du contenu-->
                 <ol> <!--ol>li*6 pour avoir la liste ci-dessous-->
-                    <li>The Last stand</li> <img
-                    class="imgWh"
-                        src="asset/ththelaststand.webp"
+                    <li>The Last stand</li> <img class="imgWh" src="asset/ththelaststand.webp"
                         alt="image  de l'albums the last stand Sabaton"> <!--permet d'inserer une image-->
-                    <li>The Attack of th dead Men<br><img
-                        class="imgWh"
-                        src="https://s1.qwant.com/thumbr/474x474/9/9/b99e4330f2ac5f1649ec9573b23e8773c34e8e4ec1b175c52156f819821d1e/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.FRJThHLXnxqObYrIwl5D8AHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
-                        alt="image de  l'albums THE GREAT WAR Sabaton "></li> 
-                    <li>Ghost Division <br> <img
-                        class="imgWh"
-                        src="https://s1.qwant.com/thumbr/474x474/a/d/3e6f32e8df7730f8c379a40534ec95fe1d3dae0efb59e535e643b71718812a/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.11MHbZC8vRaMrzzTYsr08gHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
-                        alt="image de l'albums the art of war Sabaton"></li> 
-                    <li>Bismarck <br><img
-                        class="imgWh"
-                        src="asset/thbrismark.webp"
-                        alt="image de la covers de la chanson Bismarck"></li> 
-                    <li>Night Witches <br> <img
-                        class="imgWh"
-                        src="https://s2.qwant.com/thumbr/474x474/6/f/cb57a12528c1d81707956efb6163ddf30d4c1dfafacc154d2b69a791eece12/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.RAyjnuFUc-IfBggWXLW82wHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
-                        alt="image de l'albums Heroes"></li> 
-                    <li>Primo Victoria <br> <img
-                        class="imgWh"
-                        src="https://s2.qwant.com/thumbr/474x474/e/6/5d6ab116150378374acc7aa388a9d4f9af506efed4715c69cc197f63efabc5/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.V5L4amUdnIxtE2si2AlbIAHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
-                        alt="image de l'albums Primo Victoria Sabaton"></li> 
-                    <li>Carolus Rex <br> <img
-                        class="imgWh"
-                        src="https://s2.qwant.com/thumbr/474x474/f/d/620d0770a98477eaab7de11afe80730a8e05dbf9d6f9daa829e86d6fb57858/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.B0b_woOlUy0cVJ5FcK5_pAHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
-                        alt="image de l'albums Carolus Rex Sabaton"></li> 
-                    <li>Soldiers of Heaven <br> <img class="imgWh" src="asset/thsoldheaven.webp" alt="image de la cover de la musique Soldiers of Heaven"></li>
-                    
-                    <li>To Hell and Back <br> <img class="imgWh" src="asset/thhellandback.webp" alt="image de la cover de la musique To hell and Back">
+                    <li>The Attack of th dead Men<br><img class="imgWh"
+                            src="https://s1.qwant.com/thumbr/474x474/9/9/b99e4330f2ac5f1649ec9573b23e8773c34e8e4ec1b175c52156f819821d1e/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.FRJThHLXnxqObYrIwl5D8AHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
+                            alt="image de  l'albums THE GREAT WAR Sabaton "></li>
+                    <li>Ghost Division <br> <img class="imgWh"
+                            src="https://s1.qwant.com/thumbr/474x474/a/d/3e6f32e8df7730f8c379a40534ec95fe1d3dae0efb59e535e643b71718812a/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.11MHbZC8vRaMrzzTYsr08gHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
+                            alt="image de l'albums the art of war Sabaton"></li>
+                    <li>Bismarck <br><img class="imgWh" src="asset/sabaton-bismarck-cover-500x500-1.jpg"
+                            alt="image de la covers de la chanson Bismarck"></li>
+                    <li>Night Witches <br> <img class="imgWh"
+                            src="https://s2.qwant.com/thumbr/474x474/6/f/cb57a12528c1d81707956efb6163ddf30d4c1dfafacc154d2b69a791eece12/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.RAyjnuFUc-IfBggWXLW82wHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
+                            alt="image de l'albums Heroes"></li>
+                    <li>Primo Victoria <br> <img class="imgWh"
+                            src="https://s2.qwant.com/thumbr/474x474/e/6/5d6ab116150378374acc7aa388a9d4f9af506efed4715c69cc197f63efabc5/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.V5L4amUdnIxtE2si2AlbIAHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
+                            alt="image de l'albums Primo Victoria Sabaton"></li>
+                    <li>Carolus Rex <br> <img class="imgWh"
+                            src="https://s2.qwant.com/thumbr/474x474/f/d/620d0770a98477eaab7de11afe80730a8e05dbf9d6f9daa829e86d6fb57858/th.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%3Fid%3DOIP.B0b_woOlUy0cVJ5FcK5_pAHaHa%26pid%3DApi&q=0&b=1&p=0&a=0"
+                            alt="image de l'albums Carolus Rex Sabaton"></li>
+                    <li>Soldiers of Heaven <br> <img class="imgWh" src="asset/thsoldheaven.webp"
+                            alt="image de la cover de la musique Soldiers of Heaven"></li>
+
+                    <li>To Hell and Back <br> <img class="imgWh" src="asset/thhellandback.webp"
+                            alt="image de la cover de la musique To hell and Back">
                     </li>
                 </ol>
             </div>
         </section>
-        <section>
-            <h3 id="Dernièressorties">Dernières sorties</h3>
-            <div>
-                <ul>
-                    <li>"The War To End All Wars"<br>
-                        <em>Sortie le 04/03/2022</em><br>
-                        <img src="asset/th.webp" alt="image the war to end all Wars" width="" height="200">
-                    </li> 
-                    <!--comment inserer une image qui est deja sur son bureau-->
-                    <li>the great war<br>
-                        <em>Sortie le 19/07/2019</em><br>
-                        <img src="asset/thgreatwar.webp" alt="image de l'album the great war" width="" height="200" >
-                    </li>
-                    <li>The last stand<br>
-                        <em>sortie le 19/08/2016</em><br>
-                        <img src="asset/ththelaststand.webp" alt="image de l'album the last stand" width="" height="200">
-                    </li>
+        <section class="flex container">
+            <div  class="flex alignCenter spacebetwen">
+                <h3 id="Dernièressorties">Dernières sorties</h3>
+                <div class="flex  spacebetwen">
+                    <ul>
+                        <li>"The War To End All Wars"<br>
+                            <em>Sortie le 04/03/2022</em><br>
+                            <img src="asset/th.webp" alt="image the war to end all Wars" width="" height="200">
+                        </li>
+                        <!--comment inserer une image qui est deja sur son bureau-->
+                        <li>the great war<br>
+                            <em>Sortie le 19/07/2019</em><br>
+                            <img src="asset/thgreatwar.webp" alt="image de l'album the great war" width="" height="200">
+                        </li>
+                        <li>The last stand<br>
+                            <em>sortie le 19/08/2016</em><br>
+                            <img src="asset/ththelaststand.webp" alt="image de l'album the last stand" width=""
+                                height="200">
+                        </li>
+                </div>
             </div>
 
             </ul>
@@ -209,7 +238,7 @@
 
         <section>
             <h3 id="ArtistesSimilaire">Artistes Similaire</h3>
-            <div>
+            <div class="flex alignCenter spacebetwen">
                 <ul>
                     <li><a href="Powerwolf.html" target="_blank">Powerwolf <br></a><img class="imgWh"
                             src="https://wallpapercave.com/wp/wp2095944.jpg" alt="image du groupe Powerwolf"> </li>
@@ -224,7 +253,7 @@
                             alt="image du groupe Nightwish">
                     </li>
                     <li>HammerFall <br><img class="imgWh" src="https://wallpapercave.com/wp/wp2093089.jpg"
-                        alt="image du groupe HammerFall">
+                            alt="image du groupe HammerFall">
                     </li>
                     <li>Alestorm <br><img class="imgWh" src="https://wallpapercave.com/wp/wp7915920.jpg"
                             alt="image du groupe Alestorm">
@@ -238,6 +267,22 @@
     </main>
 
     <footer><!--toujour a la fin de la balise body, contien notament les contacts, resaux, condition d'utilisateur-->
+        <section class="flex container spacebetwen alignCenter ">
+            <div class=" spacebetwen">
+                <h3 id="tr">les sites officiel de sabaton</h3>
+                <a href="" class="bolk"><img src="" alt=""></i>
+                    04.68.20.53.34</a>
+                <a href="https://www.sabaton.net/" target="_blank" class="bolk"><img src="" alt=""></i> sabaton.net
+                    </sabaton></a>
+                <p> <span class="bold">Du lundi au vendredi</span>
+                    <br>
+                    8h → 12h | 14h → 18h
+                </p>
+                <p><span class="bold">Samedi</span>
+                    <br>
+                    8h → 12h
+                </p>
+            </div>
 
 
     </footer>
@@ -245,4 +290,3 @@
 </body>
 
 </html>
-

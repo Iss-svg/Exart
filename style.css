@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');/*permet d'importer une typographie*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Odibee+Sans&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
+html{
+    scroll-behavior: smooth;
+}
 
 .Scentre {
     text-align: center; /*permet de centrer le texte*/
@@ -57,9 +64,7 @@
     width: 100px;
 }
 
-*{
-    margin: 0;
-}
+
 .bdord {
     border: solid;
     border-radius: 20px;
@@ -143,6 +148,7 @@
     font-weight: 900;
 }
 
+/*la page avec les cartes*/
 .lacarte{
     display: inline-block;/*permet d'aligner les blocks*/
     width: 308px;
@@ -173,4 +179,69 @@
 
 .lacarte .bouton{
     margin-bottom: 0;
+}
+
+/*Header*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.spacebetwen{
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.navHeader{
+    background-color: beige;
+    width: 77%;
+}
+.imgheader{
+    height: 50px;
+}
+
+.hero{
+    height: 100vh;
+
+}
+.hero h2{
+    font-family: "WindSong", cursive;
+    font-size: 120px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.bgsabaton{
+    background-image: -webkit-linear-gradient();
+}
+
+.container{
+      /*background-color:red;*/
+      max-width: 1000px;
+      width: 100%;
+      margin: auto;
+}
+
+.imgMl{
+    height: 469px;
+    width: 746px;
 }
