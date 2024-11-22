@@ -17,7 +17,6 @@ html{
 
 }
 .opm {
-
     background-color: rgb(3, 10, 91); /*color le fond de l'élément*/
     font-size: 30px;
     color: aliceblue;
@@ -245,4 +244,15 @@ h1 {
 .imgMl{
     height: 469px;
     width: 746px;
+}
+
+
+/*ACCUEIL*/
+
+.imgSbA{
+    width: 300px;
+    height: 250px;
+}
+.accMargi{
+    margin-bottom: 50px;
 }
