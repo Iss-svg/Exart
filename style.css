@@ -222,9 +222,7 @@ a {
 
 }
 .hero h2{
-    font-family: "WindSong", cursive;
-    font-size: 120px;
-    font-weight: 500;
+    
 }
 
 h1 {
@@ -232,20 +230,39 @@ h1 {
 }
 
 .bgsabaton{
-    background-image: -webkit-linear-gradient();
+    background-image: url(https://media.giphy.com/media/VdLMuTskDyl32tjU7y/giphy.gif?cid=ecf05e47ln7ph0gf1ram76lsyhh0ijiksozn6b6xxezdc6t3&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
 }
 
 .container{
       /*background-color:red;*/
-      max-width: 1000px;
+      max-width: 1100px;
       width: 100%;
       margin: auto;
 }
 
-.imgMl{
-    height: 469px;
-    width: 746px;
+.divwidth{
+    width: 50%;
 }
+.divwidth2{
+    width: 50%;
+}
+.imgMl{
+    height: 369px;
+    width: 526px;
+    object-fit: cover;
+    position: relative;
+}
+
+.divA{
+    margin-top: 55px;
+}
+
+
 
 
 /*ACCUEIL*/
