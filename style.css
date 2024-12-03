@@ -251,11 +251,12 @@ h1 {
 .divwidth2{
     width: 50%;
 }
-.imgMl{
-    height: 369px;
-    width: 526px;
-    object-fit: cover;
-    position: relative;
+
+.divwidth2 img{
+    width: 100%;
+}
+.postA{
+    position: absolute;
 }
 
 .divA{
